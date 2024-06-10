@@ -7,6 +7,8 @@ function Card({ image, title, address, price, state, city, category }) {
     setIsFavorite(!isFavorite);
   };
 
+  // cards
+
   return (
     <div className="max-w-sm w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
       <div className="relative">
